@@ -1,0 +1,16 @@
+
+/* 样式预设*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Logo Area*/
+.logo_box {list-style: none;display:flex;flex-direction:row;}
+.logo_ele1 {color: lightskyblue;}
+.logo_ele2 {color: cadetblue;}
+.logo_ele3 {color: aquamarine;}
+.logo_ele_common {width:100px;
+    height: 100px;text-align:center;margin-left:5px;margin-top: -100px;font-size: 40px}
+/*搜索区域*/
+#search_wrap {width: auto;height: 500px;background-color: lightcoral;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+#searchInput {width: 50%;height: 35px;font-size: 18px;}
